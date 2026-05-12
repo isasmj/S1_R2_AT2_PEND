@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lojista - Lojisa </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <span class="paw">🐾</span>
+            <h2>Lojisa</h2>
+            <span class="paw">🐾</span>
+        </div>
+    </header>
+
+    <div class="container">
+        <h3 class="admin-title">Administração de Itens</h3>
+        
+        <div class="input-group">
+            <label>ID do Item</label>
+            <input type="number" id="prodId" placeholder="Ex: 101">
+
+            <label>Nome do Produto (Miau!)</label>
+            <input type="text" id="nomeProd" placeholder="Ex: Ração Premium">
+
+            <label>Preço do Item</label>
+            <input type="number" id="valor" placeholder="Ex: 45.90">
+
+            <label>Categoria Felina</label>
+            <input type="number" id="idCategoria" placeholder="Ex: 3">
+        </div>
+
+        <div class="button-stack">
+            <button id="get" class="btn-yellow">Ver Todos os Itens</button>
+            <button id="post" class="btn-yellow">Cadastrar</button>
+            <button id="put" class="btn-pink">Atualizar</button>
+            <button id="delete" class="btn-pink">Remover Item</button>
+        </div>
+    </div>
+
+    <div id="conteudo"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
